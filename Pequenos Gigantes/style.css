@@ -67,6 +67,7 @@
         word-wrap: break-word; /* Força a quebra se necessário */
         text-align: center;
         padding: 10px; /* Ajusta o espaçamento interno */
+        
     }
     .resposta:hover {
         background: #ffe60099;
@@ -103,4 +104,13 @@
         color: gray; 
         font-weight: bold;
     }
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+.imgs{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 600px;
     
+
+}
