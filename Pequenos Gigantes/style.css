@@ -29,6 +29,15 @@
     white-space: nowrap;
 }
 
+.numero-fase_botao{
+    cursor: pointer;
+}
+
+.numero-fase_botao:hover{
+    color: rgb(69, 69, 69);
+    font-size: clamp(20px,6vw,30px);
+}
+
     /* --------------------------------------------------------------------------------------------------------------------------------------- */
     .respostas-box {
         display: grid;
@@ -40,7 +49,7 @@
     }
     
     .resposta {
-        background: rgba(244, 231, 110, 60%);
+        background: rgba(244, 231, 110, 0.6);
         padding: 20px;
         border-radius: 15px;
         text-align: center;
@@ -74,6 +83,11 @@
         cursor: pointer;
     }
 
+    .resposta-pergunta:hover{
+        color: rgb(69, 69, 69);
+        cursor: pointer;
+    }
+
     
     /* --------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -101,7 +115,7 @@
         position: absolute;
         bottom: 10px; 
         font-size: 14px; 
-        color: gray; 
+        color: rgb(128, 128, 128); 
         font-weight: bold;
     }
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
