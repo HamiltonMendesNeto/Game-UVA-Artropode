@@ -82,40 +82,13 @@ body {
   margin-right: 100px;
 }
 
-@media (max-width: 1024px) {
-  .container {
-    flex-direction: column;
-    justify-content: center;
-  }
 
-  .left-menu {
-    position: static;
-    transform: none;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-
-  .left-menu button {
-    width: 280px;
-    font-size: 24px;
-  }
-
-  .right-content {
-    position: static;
-    transform: none;
-    align-items: center;
-    margin-right: 0;
-  }
-
-  .logo {
-    width: 300px;
-  }
-
-  .right-content h1 {
-    font-size: 42px;
-    margin-right: 0;
-  }
+.marca-dagua {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 250px; /* Aumente o valor se quiser maior ainda */
+  opacity: 1; /* Totalmente visível */
+  z-index: 10; /* Fica acima de outros elementos, mas cuidado com sobreposição */
+  pointer-events: none; /* Ignora cliques, útil para não atrapalhar botões */
 }
-
-
-
