@@ -137,7 +137,7 @@ body {
 
 .resposta-pergunta:hover {
     font-size: 30px;
-    color: rgb(69, 69, 69);
+    color: #ffc107;
     cursor: pointer;
 }
 
@@ -233,3 +233,53 @@ body {
     top: 12%;
     border-radius: 10px;
 }
+
+
+.P_botao:hover{
+
+     font-size: 15px;
+    color: #ffc107;
+    cursor: pointer;
+}
+
+ .button_fim {
+      background-color: #ff5252;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 20px;  /* Ajustado para descer um pouco mais */
+      z-index: 3;  /* Garantir que o botão fique na frente */
+    }
+
+    .button_fim:hover {
+      background-color: #e53935;
+    }
+
+    .button_fim {
+      margin-top: 40px;
+      z-index: 3;  /* Garantir que o botão fique na frente */
+      position: relative;  /* Garantir que o botão esteja em frente */
+    }
+
+    .button_fim {
+      background-color: #ffca28; /* Cor amarela */
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+   .button_fim:hover {
+      background-color: #f39c12; /* Cor mais escura */
+      transform: scale(1.05);
+    }
+
+
