@@ -89,6 +89,19 @@ body {
     font-size: clamp(30px, 6vw, 40px);
     cursor: pointer;
 }
+
+.numero-fase_botao40 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(18px, 3vw, 28px);
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: 0.3s;
+}
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 
 .respostas-box {
